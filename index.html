@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Task Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Student Task Management System</h1>
+    <p>Manage academic tasks efficiently</p>
+</header>
+
+<section class="add-task">
+    <h2>Add New Task</h2>
+    <input type="text" id="taskName" placeholder="Task Name">
+    <input type="date" id="taskDate">
+    <button onclick="addTask()">Add Task</button>
+</section>
+
+<section>
+    <h2>Pending Tasks</h2>
+    <div id="taskList"></div>
+</section>
+
+<section>
+    <h2>Completed Tasks</h2>
+    <div id="completedList"></div>
+</section>
+
+<footer>
+    <p>© 2026 Student Task Management System</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
